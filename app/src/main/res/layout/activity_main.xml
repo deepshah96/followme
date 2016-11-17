@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/title"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/off_white" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/subtitle"
+        android:textSize="26sp" />
+
+    <View
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/description"
+        android:textSize="32sp" />
+
+    <View
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:id="@+id/play_game"
+        android:contentDescription="@string/play_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/play_button"
+        android:onClick="playGameButtonClicked"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/high_scores"
+        android:contentDescription="@string/high_scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="10sp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/scores_button"
+        android:onClick="viewScoresButtonClicked"
+        android:textSize="24dp" />
+
+</LinearLayout>
