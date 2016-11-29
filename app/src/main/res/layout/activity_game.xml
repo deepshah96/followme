@@ -12,7 +12,7 @@ android:orientation="vertical" >
     android:text="@string/title"
     android:textSize="40sp"
     android:textStyle="bold"
-    android:textColor="@color/off_white" />
+    android:textColor="#FFF" />
 
 <View
     android:layout_height="fill_parent"
@@ -30,7 +30,7 @@ android:orientation="vertical" >
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_margin="5dip"
-        android:background="@drawable/game_button"
+        android:background="@drawable/redbutton"
         android:onClick="button0Clicked" />
 
     <Button
@@ -38,7 +38,7 @@ android:orientation="vertical" >
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_margin="5dip"
-        android:background="@drawable/game_button"
+        android:background="@drawable/bluebutton"
         android:onClick="button1Clicked" />
 
 </LinearLayout>
@@ -46,11 +46,9 @@ android:orientation="vertical" >
 <TextView
     android:id="@+id/game_level"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="1dp"
     android:gravity="center_vertical|center_horizontal"
-    android:layout_marginTop="14sp"
-    android:layout_marginBottom="14sp"
-    android:textSize="22sp" />
+    />
 
 <LinearLayout
     android:orientation="horizontal"
@@ -63,7 +61,7 @@ android:orientation="vertical" >
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_margin="5dip"
-        android:background="@drawable/game_button"
+        android:background="@drawable/yellowbutton"
         android:onClick="button2Clicked" />
 
     <Button
@@ -71,7 +69,7 @@ android:orientation="vertical" >
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_margin="5dip"
-        android:background="@drawable/game_button"
+        android:background="@drawable/green-button"
         android:onClick="button3Clicked" />
 
 </LinearLayout>
