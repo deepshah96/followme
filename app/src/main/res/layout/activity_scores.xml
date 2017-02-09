@@ -206,6 +206,18 @@
                 android:textStyle="bold"
                 android:padding="3dip"
                 android:layout_marginTop="6dip" />
+
+            <ImageButton
+                android:id="@+id/clear_scores"
+                android:contentDescription="@string/clear_scores"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="10sp"
+                android:background="@drawable/clear_button"
+                android:onClick="clearScoresButtonClicked"
+                android:textSize="24dp" />
+
             <TextView
                 android:id="@+id/high_score8"
                 android:layout_width="fill_parent"
@@ -244,16 +256,5 @@
         android:layout_height="0dip"
         android:layout_width="fill_parent"
         android:layout_weight="1" />
-
-    <ImageButton
-        android:id="@+id/clear_scores"
-        android:contentDescription="@string/clear_scores"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:layout_marginBottom="10sp"
-        android:background="@drawable/clear_button"
-        android:onClick="clearScoresButtonClicked"
-        android:textSize="24dp" />
 
 </LinearLayout>

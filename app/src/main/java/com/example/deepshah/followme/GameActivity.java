@@ -257,7 +257,7 @@ public class GameActivity extends Activity {
          * Updates the display in response to the publication of a single
          * button used in the sequence.
          *
-         * @param	clicks	 An array of size one where the only element is
+         * @param	//clicks	 An array of size one where the only element is
          *                   the number of clicks to use in the sequence.
          */
         protected void onProgressUpdate(Integer... buttonIndexes) {

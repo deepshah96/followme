@@ -4,17 +4,18 @@ android:layout_width="fill_parent"
 android:layout_height="fill_parent"
 android:orientation="vertical" >
 
-<TextView
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="20sp"
-    android:gravity="center_vertical|center_horizontal"
-    android:text="@string/title"
-    android:textSize="40sp"
-    android:textStyle="bold"
-    android:textColor="@color/off_white" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/title"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/off_white"
+        android:id="@+id/textView" />
 
-<View
+    <View
     android:layout_height="fill_parent"
     android:layout_width="fill_parent"
     android:layout_weight="1" />
@@ -94,15 +95,15 @@ android:orientation="vertical" >
     android:layout_width="fill_parent"
     android:layout_weight="1" />
 
-<ImageButton
-    android:id="@+id/start_game"
-    android:contentDescription="@string/start_game"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="10sp"
-    android:layout_gravity="center_vertical|center_horizontal"
-    android:background="@drawable/start_button"
-    android:onClick="startGame"
-    android:textSize="24dp" />
+    <ImageButton
+        android:id="@+id/start_game"
+        android:contentDescription="@string/start_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/start_button"
+        android:onClick="startGame"
+        android:textSize="24dp" />
 
 </LinearLayout>
